@@ -34,16 +34,16 @@ export class Town {
     skyImage.src = 'images/sky.jpg';
     this.sky = { x: 0, y: 0, width: SceneWidth, height: 400, img: skyImage };
     const sunImage = new Image();
-    sunImage.src = 'images/sun.png';
+    sunImage.src = 'images/weirdsun.png';
     this.sun = { x: 950, y: 50, width: 150, height: 150, img: sunImage };
     const moonImage = new Image();
-    moonImage.src = 'images/moon.png';
+    moonImage.src = 'images/sadmoon.png';
     this.moon = { x: 350, y: 600, width: 75, height: 75, img: moonImage };
     const starsImage = new Image();
-    starsImage.src = 'images/stars.png';
+    starsImage.src = 'images/weirdstars.png';
     this.stars = { x: 0, y: -200, width: 1600, height: 1600, img: starsImage, rotation: 0 };
     const foreImage = new Image();
-    foreImage.src = 'images/foreground.png';
+    foreImage.src = 'images/weirdforeground.png';
     this.foreground = { x: 0, y: 0, width: SceneWidth, height: SceneHeight, img: foreImage };
 
 
